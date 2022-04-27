@@ -4,8 +4,8 @@ function Footer() {
   return (
     <footer className=" mt-8 py-10  -mb-7 block">
       <div className="container   mx-auto">
-        <div className="follow hidden md:block">
-          <p className=" italic font-semibold text-orange-500 ">follow us:</p>
+        <div className="follow ">
+          <p className=" italic font-semibold text-gray-600 ">follow us:</p>
           <div className="social flex space-x-5 mt-4 ">
             <Link to="#">
               <svg
@@ -13,7 +13,7 @@ function Footer() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="twitter"
-                className="text-orange-500  transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 h-5 w-5 fill-current "
+                className="text-gray-600  transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 h-5 w-5 fill-current "
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -30,7 +30,7 @@ function Footer() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="facebook-f"
-                className="text-orange-500  transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 h-5 w-5 fill-current "
+                className="text-gray-600  transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 h-5 w-5 fill-current "
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
@@ -47,7 +47,7 @@ function Footer() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="instagram"
-                className="text-orange-500  transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 h-5 w-5 fill-current "
+                className="text-gray-600  transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 h-5 w-5 fill-current "
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -64,7 +64,7 @@ function Footer() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="youtube"
-                className="text-orange-500 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 h-5 w-5 fill-current "
+                className="text-gray-600 transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110 h-5 w-5 fill-current "
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 576 512"
