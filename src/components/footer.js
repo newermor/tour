@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className=" mt-8 py-10  -mb-7 block">
+    <footer className=" mt-8 py-10 md:ml-5 -mb-7 block">
       <div className="container   mx-auto">
         <div className="follow ">
           <p className=" italic font-semibold text-gray-600 ">follow us:</p>
