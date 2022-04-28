@@ -13,12 +13,7 @@ function Footer() {
               Xavsiz Ishochli Tajribali!
             </p>
             <div className="flex mt-8 space-x-6 items-center text-gray-600">
-              <Link
-                className="hover:opacity-75"
-                to={"#"}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Link className="hover:opacity-75" to={"#"} rel="noreferrer">
                 <span className="sr-only"> Facebook </span>
                 <svg
                   className="w-6 h-6 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
@@ -33,12 +28,7 @@ function Footer() {
                   />
                 </svg>
               </Link>
-              <Link
-                className="hover:opacity-75"
-                to={"#"}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Link className="hover:opacity-75" to={"#"} rel="noreferrer">
                 <span className="sr-only"> Instagram </span>
                 <svg
                   className="w-6 h-6 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
@@ -53,12 +43,7 @@ function Footer() {
                   />
                 </svg>
               </Link>
-              <Link
-                className="hover:opacity-75"
-                to={"#"}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Link className="hover:opacity-75" to={"#"} rel="noreferrer">
                 <span className="sr-only"> Twitter </span>
                 <svg
                   className="w-6 h-6 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
@@ -70,13 +55,8 @@ function Footer() {
                 </svg>
               </Link>
 
-              <Link
-                className="hover:opacity-75"
-                to={"#"}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="sr-only"> Dribbble </span>
+              <Link className="hover:opacity-75" to={"#"} rel="noreferrer">
+                <span className="sr-only"> telegram </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-5 h-5 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
