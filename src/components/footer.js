@@ -59,7 +59,7 @@ function Footer() {
                 <span className="sr-only"> Dribbble </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className=" transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
+                  className="w-5 h-5 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
 
                   width="20"
                   height="20"
