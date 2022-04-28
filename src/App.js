@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/about";
+import Euro from "./pages/euro";
 import Home from "./pages/home";
-import Tour from "./pages/tour";
-import Travel from "./pages/travel";
+import National from "./pages/national";
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/travel" element={<Travel />} />
-        <Route path="/tour" element={<Tour />} />
+        <Route path="/national" element={<National />} />
+        <Route path="/euro" element={<Euro />} />
       </Routes>
     </BrowserRouter>
   );

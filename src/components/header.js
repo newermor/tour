@@ -10,11 +10,11 @@ function Header() {
   };
 
   return (
-    <nav id="header" class="fixed w-full z-50  top-0 bg-gray-400 text-white">
+    <nav id="header" class="fixed w-full z-50  top-0 bg-gradient-to-r from-gray-200 via-blue-100 to-gray-200 ">
       <div class="w-full container mx-auto  flex flex-wrap items-center justify-between mt-0 py-2 ">
         <div class="pl-4 flex items-center">
           <Link
-            class="toggleColour text-white  font-semibold text-2xl lg:text-4xl"
+            class="toggleColour text-gray-600 hover:text-gray-800  font-semibold text-2xl lg:text-4xl"
             to="/"
           >
             Another Travel
@@ -46,17 +46,17 @@ function Header() {
             <li class="mr-3">
               <Link
                 class="inline-block text-gray-800 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                to="/travel"
+                to="/national"
               >
-                Travel
+                National
               </Link>
             </li>
             <li class="mr-3">
               <Link
                 class="inline-block text-gray-800 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                to="/tour"
+                to="/euro"
               >
-                Tour
+                Euro
               </Link>
             </li>
             <li class="mr-3">

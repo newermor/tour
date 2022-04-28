@@ -1,9 +1,9 @@
 import Layout from "../components/layout";
 
-function Travel() {
+function National() {
   return (
     <Layout>
-      <div className="flex justify-center bg-gray-50 items-center">
+      <div className="flex justify-center items-center">
         <div className="mx-auto 2xl:container lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto">
           <div className="lg:flex items-stretch md:mt-12 mt-8">
             <div className="lg:w-1/2">
@@ -11,14 +11,14 @@ function Travel() {
                 <div className="sm:w-1/2 relative overflow-hidden">
                   <div>
                     <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-1111111111111111
+                      Uzbekistan
                     </p>
                     <div className="absolute bottom-0 left-0 p-6">
                       <h2 className="text-xl font-semibold 5 text-white">
-                        The Decorated Ways
+                        Hazrati Imom
                       </h2>
                       <p className="text-base leading-4 text-white mt-2">
-                        Dive into minimalism
+                        Me'moriy yodgorlik
                       </p>
                       <a
                         href="javascript:void(0)"
@@ -47,7 +47,7 @@ function Travel() {
                     </div>
                   </div>
                   <img
-                    src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
+                    src="http://www.business-tour.ru/upload/images/tours/best_price/Uzbekistan/1.jpg"
                     className="w-full  ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 "
                     alt="chair"
                   />
@@ -55,14 +55,14 @@ function Travel() {
                 <div className="sm:w-1/2 sm:mt-0 mt-4 relative overflow-hidden">
                   <div>
                     <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-222222222222222222222
+                      Uzbekistan
                     </p>
                     <div className="absolute bottom-0 left-0 p-6">
                       <h2 className="text-xl font-semibold 5 text-white">
-                        The Decorated Ways
+                        Xiva
                       </h2>
                       <p className="text-base leading-4 text-white mt-2">
-                        Dive into minimalism
+                        Me'moriy qal'a
                       </p>
                       <a
                         href="javascript:void(0)"
@@ -100,14 +100,14 @@ function Travel() {
               <div className="relative  md:mt-7 mt-4 overflow-hidden">
                 <div>
                   <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-33333333333333333333333
+                    Uzbekistan
                   </p>
                   <div className="absolute bottom-0 left-0 md:p-10 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">
-                      The Decorated Ways
+                      Shohizinda
                     </h2>
                     <p className="text-base leading-4 text-white mt-2">
-                      Dive into minimalism
+                      Tarixiy naqqoshlik
                     </p>
                     <a
                       href="javascript:void(0)"
@@ -136,13 +136,13 @@ function Travel() {
                   </div>
                 </div>
                 <img
-                  src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
+                  src="https://media.istockphoto.com/photos/shahizinda-mausoleum-samarkand-uzbekistan-shohizinda-necropolis-picture-id1194231490?b=1&k=20&m=1194231490&s=170667a&w=0&h=LXAA9aaQj8MDj_yFRsnxhRlkQcas9Qquxb39IQELM0I="
                   alt="sitting place"
                   className="w-full object-cover ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:block hidden"
                 />
                 <img
                   className="w-full object-cover ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:hidden"
-                  src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
+                  src="https://media.istockphoto.com/photos/shahizinda-mausoleum-samarkand-uzbekistan-shohizinda-necropolis-picture-id1194231490?b=1&k=20&m=1194231490&s=170667a&w=0&h=LXAA9aaQj8MDj_yFRsnxhRlkQcas9Qquxb39IQELM0I="
                   alt="sitting place"
                 />
               </div>
@@ -151,14 +151,14 @@ function Travel() {
               <div className="relative overflow-hidden">
                 <div>
                   <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-44444444444444444444444444444                    
+                    Uzbekistan
                   </p>
                   <div className="absolute bottom-0 left-0 md:p-10 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">
-                      The Decorated Ways
+                      Bukhara
                     </h2>
                     <p className="text-base leading-4 text-white mt-2">
-                      Dive into minimalism
+                      Me'moriy masjid
                     </p>
                     <a
                       href="javascript:void(0)"
@@ -187,13 +187,13 @@ function Travel() {
                   </div>
                 </div>
                 <img
-                  src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
+                  src="https://media.istockphoto.com/photos/kalyan-mosque-at-dusk-in-bukhara-uzbekistan-picture-id956576840?k=20&m=956576840&s=612x612&w=0&h=p0uVcIp6yVhaXy3t_cGZbDPbZuQ6iug5AsjezoKWDGU="
                   alt="sitting place"
                   className="w-full object-cover ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:block hidden"
                 />
                 <img
                   className="w-full object-cover ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:hidden"
-                  src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
+                  src="https://media.istockphoto.com/photos/kalyan-mosque-at-dusk-in-bukhara-uzbekistan-picture-id956576840?k=20&m=956576840&s=612x612&w=0&h=p0uVcIp6yVhaXy3t_cGZbDPbZuQ6iug5AsjezoKWDGU="
                   alt="sitting place"
                 />
               </div>
@@ -201,14 +201,14 @@ function Travel() {
                 <div className="relative overflow-hidden w-full">
                   <div>
                     <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-55555555555555555555555555555
+                      Uzbekistan
                     </p>
                     <div className="absolute bottom-0 left-0 p-6">
                       <h2 className="text-xl font-semibold 5 text-white">
-                        The Decorated Ways
+                        Samarkand
                       </h2>
                       <p className="text-base leading-4 text-white mt-2">
-                        Dive into minimalism
+                        Registon madrasasi
                       </p>
                       <a
                         href="javascript:void(0)"
@@ -237,7 +237,7 @@ function Travel() {
                     </div>
                   </div>
                   <img
-                    src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
+                    src="https://avatars.mds.yandex.net/i?id=9d1f164f7758f4e6cb786b15985022be-4866546-images-thumbs&n=13"
                     className="w-full  ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500"
                     alt="chair"
                   />
@@ -245,14 +245,14 @@ function Travel() {
                 <div className="relative overflow-hidden w-full sm:mt-0 mt-4">
                   <div>
                     <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-66666666666666666666666666666
+                      Uzbekistan
                     </p>
                     <div className="absolute bottom-0 left-0 p-6">
                       <h2 className="text-xl font-semibold 5 text-white">
-                        The Decorated Ways
+                        Tashkent
                       </h2>
                       <p className="text-base leading-4 text-white mt-2">
-                        Dive into minimalism
+                        Minor masjid
                       </p>
                       <a
                         href="javascript:void(0)"
@@ -295,7 +295,7 @@ function Travel() {
   );
 }
 
-export default Travel;
+export default National;
 
 {
   /* <div classNameName="mx-auto container px-6 
