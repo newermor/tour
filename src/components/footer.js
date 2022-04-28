@@ -56,10 +56,13 @@ function Footer() {
               </Link>
 
               <Link className="hover:opacity-75" to={"#"} rel="noreferrer">
-                <span className="sr-only"> telegram </span>
+                <span className="sr-only"> Dribbble </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
+                  className=" transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
+
+                  width="20"
+                  height="20"
                   fill="currentColor"
                   class="bi bi-telegram"
                   viewBox="0 0 16 16"
