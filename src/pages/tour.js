@@ -86,7 +86,7 @@ const cardList = [
 function Tour() {
   return (
     <Layout>
-    <div class="h-full bg-white mt-10  grid grid-cols-2 gap-10 justify-center sm:py-12">
+    <div class="h-full bg-white mt-10  grid grid-cols-1 md:grid-cols-2 gap-10 justify-center sm:py-12">
   
   {cardList.map((e)=>{
     return <div key={e.id} class="py-3 sm:max-w-xl sm:mx-auto  m-12">

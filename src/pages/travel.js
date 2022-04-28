@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 function Travel() {
   return (
     <Layout>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center bg-gray-50 items-center">
         <div className="mx-auto 2xl:container lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto">
           <div className="lg:flex items-stretch md:mt-12 mt-8">
             <div className="lg:w-1/2">
@@ -11,7 +11,7 @@ function Travel() {
                 <div className="sm:w-1/2 relative overflow-hidden">
                   <div>
                     <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-                      12 April 2021
+1111111111111111
                     </p>
                     <div className="absolute bottom-0 left-0 p-6">
                       <h2 className="text-xl font-semibold 5 text-white">
@@ -55,7 +55,7 @@ function Travel() {
                 <div className="sm:w-1/2 sm:mt-0 mt-4 relative overflow-hidden">
                   <div>
                     <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-                      12 April 2021
+222222222222222222222
                     </p>
                     <div className="absolute bottom-0 left-0 p-6">
                       <h2 className="text-xl font-semibold 5 text-white">
@@ -97,10 +97,10 @@ function Travel() {
                   />
                 </div>
               </div>
-              <div className="relative overflow-hidden">
+              <div className="relative  md:mt-7 mt-4 overflow-hidden">
                 <div>
                   <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-                    12 April 2021
+33333333333333333333333
                   </p>
                   <div className="absolute bottom-0 left-0 md:p-10 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">
@@ -136,13 +136,13 @@ function Travel() {
                   </div>
                 </div>
                 <img
-                  src="https://countrysideindia.com/wp-content/uploads/2019/10/Itchan-Kala-Khiva-Uzbekistan._526336663.jpg"
+                  src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
                   alt="sitting place"
-                  className="w-full  ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 mt-8 md:mt-6 hidden sm:block"
+                  className="w-full object-cover ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:block hidden"
                 />
                 <img
-                  className="w-full  ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 mt-4 sm:hidden"
-                  src="https://old.travel123.ru/wp-content/uploads/Uzbekistan/Uzbekistan-mini-1600.jpg"
+                  className="w-full object-cover ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:hidden"
+                  src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
                   alt="sitting place"
                 />
               </div>
@@ -151,7 +151,7 @@ function Travel() {
               <div className="relative overflow-hidden">
                 <div>
                   <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-                    12 April 2021
+44444444444444444444444444444                    
                   </p>
                   <div className="absolute bottom-0 left-0 md:p-10 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">
@@ -189,10 +189,10 @@ function Travel() {
                 <img
                   src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
                   alt="sitting place"
-                  className="w-full  ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:block hidden"
+                  className="w-full object-cover ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:block hidden"
                 />
                 <img
-                  className="w-full  ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:hidden"
+                  className="w-full object-cover ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 transition duration-500 sm:hidden"
                   src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
                   alt="sitting place"
                 />
@@ -201,7 +201,7 @@ function Travel() {
                 <div className="relative overflow-hidden w-full">
                   <div>
                     <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-                      12 April 2021
+55555555555555555555555555555
                     </p>
                     <div className="absolute bottom-0 left-0 p-6">
                       <h2 className="text-xl font-semibold 5 text-white">
@@ -245,7 +245,7 @@ function Travel() {
                 <div className="relative overflow-hidden w-full sm:mt-0 mt-4">
                   <div>
                     <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">
-                      12 April 2021
+66666666666666666666666666666
                     </p>
                     <div className="absolute bottom-0 left-0 p-6">
                       <h2 className="text-xl font-semibold 5 text-white">
