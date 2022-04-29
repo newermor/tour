@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import CustomLink from "./customLink";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +17,12 @@ function Header() {
     >
       <div class="w-full container mx-auto  flex flex-wrap items-center justify-between mt-0 py-2 ">
         <div class="pl-4 flex items-center">
-          <Link
+          <CustomLink
             class="toggleColour text-gray-600 hover:text-gray-800  font-semibold text-2xl lg:text-4xl"
             to="/"
           >
             Another Travel
-          </Link>
+          </CustomLink>
         </div>
 
         <div class="block lg:hidden pr-4">
@@ -47,28 +48,28 @@ function Header() {
         >
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <Link
-                class="inline-block text-gray-800 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              <CustomLink
+                class="inline-block text-gray-600 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                 to="/national"
               >
                 National
-              </Link>
+              </CustomLink>
             </li>
             <li class="mr-3">
-              <Link
-                class="inline-block text-gray-800 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              <CustomLink
+                class="inline-block text-gray-600 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                 to="/euro"
               >
                 Euro
-              </Link>
+              </CustomLink>
             </li>
             <li class="mr-3">
-              <Link
-                class="inline-block py-2 px-4 text-gray-800 font-bold no-underline"
+              <CustomLink
+                class="inline-block py-2 px-4 text-gray-600 font-bold no-underline"
                 to="/about"
               >
                 About
-              </Link>
+              </CustomLink>
             </li>
           </ul>
           {/* <button
@@ -95,28 +96,28 @@ export const MobilMenu = () => {
     >
       <ul class="list-reset lg:flex justify-end flex-1 items-center">
         <li class="mr-3">
-          <Link
+          <CustomLink
             class="inline-block text-gray-800 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
             to="/national"
           >
             National
-          </Link>
+          </CustomLink>
         </li>
         <li class="mr-3">
-          <Link
+          <CustomLink
             class="inline-block text-gray-800 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
             to="/euro"
           >
             Euro
-          </Link>
+          </CustomLink>
         </li>
         <li class="mr-3">
-          <Link
+          <CustomLink
             class="inline-block py-2 px-4 text-gray-800 font-bold no-underline"
             to="/about"
           >
             About
-          </Link>
+          </CustomLink>
         </li>
       </ul>
       {/* <button

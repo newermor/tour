@@ -8,13 +8,13 @@ function Home() {
       <div className="pt-24 container max-w-6xl mx-auto m-8 ">
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center justify-between">
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-            <p className="uppercase tracking-loose w-full">
+            <p className="uppercase tracking-loose text-gray-800 w-full">
               Nma uchun biznin kompaniya?
             </p>
-            <h1 className="my-4 text-5xl font-bold leading-tight">
+            <h1 className="my-4 text-5xl font-bold  text-gray-800 leading-tight">
               Xavsiz, Ishochli, Tajribali!
             </h1>
-            <p className="leading-normal text-2xl mb-8">
+            <p className="leading-normal text-2xl  text-gray-800 mb-8">
               Kompaniyada ichki va tashqi turizim mavjudligi
             </p>
           </div>
