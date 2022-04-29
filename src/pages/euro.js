@@ -66,44 +66,44 @@ const cardList = [
 function Euro() {
   return (
     <Layout>
-      <div class="h-full bg-white mt-10  grid grid-cols-1 md:grid-cols-2 gap-10 justify-center sm:py-12">
+      <div className="h-full bg-white mt-10  grid grid-cols-1 md:grid-cols-2 gap-10 justify-center sm:py-12">
         {cardList.map((e) => {
           return (
-            <div key={e.id} class="py-3 sm:max-w-xl sm:mx-auto  m-4">
-              <div class="bg-white shadow-lg border-gray-100 max-h-80	 border sm:rounded-3xl p-8 flex space-x-8">
-                <div class="h-48 overflow-visible w-1/2">
+            <div key={e.id} className="py-3 sm:max-w-xl sm:mx-auto  m-4">
+              <div className="bg-white shadow-lg border-gray-100 max-h-80	 border sm:rounded-3xl p-8 flex space-x-8">
+                <div className="h-48 overflow-visible w-1/2">
                   <img
-                    class="rounded-3xl shadow-lg object-contain object-center transition duration-500 ease-in-out hover:transform hover:scale-150 md:hover:-translate-y-1 md:hover:scale-110 "
+                    className="rounded-3xl shadow-lg object-contain object-center transition duration-500 ease-in-out hover:transform hover:scale-150 md:hover:-translate-y-1 md:hover:scale-110 "
                     src={e.url}
                     alt="images"
                   />
                 </div>
-                <div class="flex flex-col w-1/2 space-y-4">
-                  <div class="flex justify-between items-start">
-                    <h2 class="md:text-3xl text-2xl font-bold line-clamp-1">
+                <div className="flex flex-col w-1/2 space-y-4">
+                  <div className="flex justify-between items-start">
+                    <h2 className="md:text-3xl text-2xl font-bold line-clamp-1">
                       {e.title}
                     </h2>
-                    <div class="bg-yellow-400 hidden md:block font-bold rounded-xl p-2">
+                    <div className="bg-yellow-400 hidden md:block font-bold rounded-xl p-2">
                       {e.number}
                     </div>
                   </div>
                   <div>
-                    <div class="bg-yellow-400 inline-block  md:hidden font-bold rounded-xl p-2">
+                    <div className="bg-yellow-400 inline-block  md:hidden font-bold rounded-xl p-2">
                       {e.number}
                     </div>
                   </div>
                   <div>
-                    <div class="text-sm text-gray-400 line-clamp-1">
+                    <div className="text-sm text-gray-400 line-clamp-1">
                       {e.Series}
                     </div>
-                    <div class="text-lg text-gray-800 line-clamp-1">
+                    <div className="text-lg text-gray-800 line-clamp-1">
                       {e.day}
                     </div>
                   </div>
-                  <p class=" text-gray-400 max-h-40 overflow-y-hidden line-clamp-1">
+                  <p className=" text-gray-400 max-h-40 overflow-y-hidden line-clamp-1">
                     {e.city}
                   </p>
-                  <div class="flex text-2xl font-bold line-clamp-1">
+                  <div className="flex text-2xl font-bold line-clamp-1">
                     {e.money}
                   </div>
                 </div>
@@ -118,22 +118,22 @@ function Euro() {
 
 export default Euro;
 
-// <div class="py-3 sm:max-w-xl sm:mx-auto">
-//     <div class="bg-white shadow-lg border-gray-100 max-h-80	 border sm:rounded-3xl p-8 flex space-x-8">
-//       <div class="h-48 overflow-visible w-1/2">
-//           <img class="rounded-3xl shadow-lg" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1LRLLWGvs5sZdTzuMqLEahb88Pc.jpg" alt=""/>
+// <div className="py-3 sm:max-w-xl sm:mx-auto">
+//     <div className="bg-white shadow-lg border-gray-100 max-h-80	 border sm:rounded-3xl p-8 flex space-x-8">
+//       <div className="h-48 overflow-visible w-1/2">
+//           <img className="rounded-3xl shadow-lg" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1LRLLWGvs5sZdTzuMqLEahb88Pc.jpg" alt=""/>
 //       </div>
-//       <div class="flex flex-col w-1/2 space-y-4">
-//         <div class="flex justify-between items-start">
-//           <h2 class="text-3xl font-bold">Sweet Tooth: El niño ciervo</h2>
-//           <div class="bg-yellow-400 font-bold rounded-xl p-2">7.2</div>
+//       <div className="flex flex-col w-1/2 space-y-4">
+//         <div className="flex justify-between items-start">
+//           <h2 className="text-3xl font-bold">Sweet Tooth: El niño ciervo</h2>
+//           <div className="bg-yellow-400 font-bold rounded-xl p-2">7.2</div>
 //         </div>
 //         <div>
-//           <div class="text-sm text-gray-400">Series</div>
-//           <div class="text-lg text-gray-800">2019</div>
+//           <div className="text-sm text-gray-400">Series</div>
+//           <div className="text-lg text-gray-800">2019</div>
 //         </div>
-//           <p class=" text-gray-400 max-h-40 overflow-y-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-//         <div class="flex text-2xl font-bold text-a">$83.90</div>
+//           <p className=" text-gray-400 max-h-40 overflow-y-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+//         <div className="flex text-2xl font-bold text-a">$83.90</div>
 //       </div>
 
 //     </div>

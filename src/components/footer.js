@@ -6,7 +6,7 @@ function Footer() {
       <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div className=" md:flex md:flex-row justify-between grid grid-cols-1 gap-8  ">
           <div className="">
-            <p class="toggleColour text-gray-600  font-semibold text-2xl lg:text-4xl">
+            <p className="toggleColour text-gray-600  font-semibold text-2xl lg:text-4xl">
               Another Travel
             </p>
             <p className="max-w-xs mt-4 text-xl text-gray-600">
