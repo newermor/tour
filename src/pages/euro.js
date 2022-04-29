@@ -33,7 +33,7 @@ const cardList = [
   },
   {
     id: 4,
-    title: "Rossia",
+    title: "Russia",
     city: "Moscow",
     money: "$ 3000 - 4000",
     url: "https://i0.wp.com/dikmi.ru/assets/images/new_year/sssr/sssr_1.jpg",
@@ -80,7 +80,9 @@ function Euro() {
                 </div>
                 <div class="flex flex-col w-1/2 space-y-4">
                   <div class="flex justify-between items-start">
-                    <h2 class="text-3xl font-bold line-clamp-1">{e.title}</h2>
+                    <h2 class="md:text-3xl text-2xl font-bold line-clamp-1">
+                      {e.title}
+                    </h2>
                     <div class="bg-yellow-400 hidden md:block font-bold rounded-xl p-2">
                       {e.number}
                     </div>

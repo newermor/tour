@@ -21,6 +21,7 @@ function Home() {
           <div className="w-full md:w-3/5 py-6 text-center">
             <img
               className="w-full ml-auto md:w-4/5 z-50"
+              alt="Image"
               src="https://img.freepik.com/free-vector/great-wall-china-vector-illustration-chinese-famous-landmark-with-watchtowers-wall-sections-mountains-flat-style-culture-travel-tourism-concept-isolated_275655-698.jpg?w=2000"
             />
           </div>
@@ -37,7 +38,7 @@ function Home() {
 
           <div class="flex flex-wrap items-center justify-between">
             <div class="w-5/6 sm:w-1/2 p-6">
-              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              <h3 class="text-4xl text-gray-800 font-bold leading-none mb-3">
                 Milliy tour sahifamizda :
               </h3>
               <p class="text-gray-600 mb-8">
@@ -488,7 +489,7 @@ function Home() {
             </div>
             <div class="w-full sm:w-1/2 p-6 mt-6">
               <div class="align-middle">
-                <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                <h3 class="text-4xl text-gray-800 font-bold leading-none mb-3">
                   Euro tour sahifamizda:
                 </h3>
                 <p class="text-gray-600 mb-8">
