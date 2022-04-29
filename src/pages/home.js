@@ -4,8 +4,9 @@ import Layout from "../components/layout";
 function Home() {
   return (
     <Layout>
-      <div className="pt-24">
-        <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      {/* container max-w-5xl mx-auto m-8 */}
+      <div className="pt-24 container max-w-6xl mx-auto m-8 ">
+        <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center justify-between">
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
             <p className="uppercase tracking-loose w-full">
               Nma uchun biznin kompaniya?
@@ -19,14 +20,14 @@ function Home() {
           </div>
           <div className="w-full md:w-3/5 py-6 text-center">
             <img
-              className="w-full md:w-4/5 z-50"
+              className="w-full ml-auto md:w-4/5 z-50"
               src="https://img.freepik.com/free-vector/great-wall-china-vector-illustration-chinese-famous-landmark-with-watchtowers-wall-sections-mountains-flat-style-culture-travel-tourism-concept-isolated_275655-698.jpg?w=2000"
             />
           </div>
         </div>
       </div>
-      <section class="bg-white  py-8">
-        <div class="container max-w-5xl  ">
+      <section class="bg-white  py-8 mx-auto">
+        <div class="container max-w-6xl mx-auto m-8">
           <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
             Haqimizda
           </h1>
@@ -506,8 +507,10 @@ function Home() {
           </div>
         </div>
       </section>
+     
     </Layout>
   );
 }
 
 export default Home;
+ 

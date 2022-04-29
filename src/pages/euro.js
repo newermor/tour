@@ -69,13 +69,13 @@ function Euro() {
       <div class="h-full bg-white mt-10  grid grid-cols-1 md:grid-cols-2 gap-10 justify-center sm:py-12">
         {cardList.map((e) => {
           return (
-            <div key={e.id} class="py-3 sm:max-w-xl sm:mx-auto  m-12">
+            <div key={e.id} class="py-3 sm:max-w-xl sm:mx-auto  m-4">
               <div class="bg-white shadow-lg border-gray-100 max-h-80	 border sm:rounded-3xl p-8 flex space-x-8">
                 <div class="h-48 overflow-visible w-1/2">
                   <img
-                    class="rounded-3xl shadow-lg object-contain object-center transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:scale-110 "
+                    class="rounded-3xl shadow-lg object-contain object-center transition duration-500 ease-in-out hover:transform hover:scale-150 md:hover:-translate-y-1 md:hover:scale-110 "
                     src={e.url}
-                    alt=""
+                    alt="images"
                   />
                 </div>
                 <div class="flex flex-col w-1/2 space-y-4">
