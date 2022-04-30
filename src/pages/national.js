@@ -22,7 +22,7 @@ function National() {
                         Me'moriy yodgorlik
                       </p>
                       <Link
-                        to={'/detail'}
+                        to={`/national/1`}
                         className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -66,7 +66,7 @@ function National() {
                         Me'moriy qal'a
                       </p>
                       <Link
-                        to={'/detail'}
+                        to={`/national/2`}
                         className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -111,7 +111,7 @@ function National() {
                       Tarixiy naqqoshlik
                     </p>
                     <Link
-                      to={'/detail'}
+                      to={`/national/3`}
                       className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                     >
                       <p className="pr-2 text-sm font-medium leading-none">
@@ -162,7 +162,7 @@ function National() {
                       Me'moriy masjid
                     </p>
                     <Link
-                      to={'/detail'}
+                      to={`/national/4`}
                       className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                     >
                       <p className="pr-2 text-sm font-medium leading-none">
@@ -212,7 +212,7 @@ function National() {
                         Registon madrasasi
                       </p>
                       <Link
-                        to={'/detail'}
+                        to={`/national/5`}
                         className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -256,7 +256,7 @@ function National() {
                         Minor masjid
                       </p>
                       <Link
-                        to={'/detail'}
+                        to={`/national/6`}
                         className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -298,252 +298,4 @@ function National() {
 
 export default National;
 
-{
-  /* <div classNameName="mx-auto container px-6 
-      mt-2 xl:px-0 py-12">
-        <div classNameName="flex flex-col">
-          <div classNameName="flex flex-col justify-center">
-            <div classNameName="relative overflow-hidden">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full transition duration-500 h-96"
-                src="https://old.travel123.ru/wp-content/uploads/Uzbekistan/Uzbekistan-mini-1600.jpg"
-                alt="image"
-              />
-              <img
-                classNameName="sm:hidden w-full"
-                src="https://i.ibb.co/B6qwqPT/jason-wang-Nx-Awry-Abt-Iw-unsplash-1.png"
-                alt="image"
-              />
-              <div classNameName="absolute sm:bottom-8 bottom-4 pr-10 sm:pr-0 left-4 sm:left-8 flex justify-start items-start">
-                <p classNameName="text-3xl sm:text-4xl font-semibold leading-9 text-white">
-                  Another Travel
-                </p>
-              </div>
-            </div>
-          </div>
-          <div classNameName="mt-10 grid lg:grid-cols-2 gap-x-8 gap-y-8 items-center">
 
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://countrysideindia.com/wp-content/uploads/2019/10/Itchan-Kala-Khiva-Uzbekistan._526336663.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://countrysideindia.com/wp-content/uploads/2019/10/Itchan-Kala-Khiva-Uzbekistan._526336663.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://countrysideindia.com/wp-content/uploads/2019/10/Itchan-Kala-Khiva-Uzbekistan._526336663.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://countrysideindia.com/wp-content/uploads/2019/10/Itchan-Kala-Khiva-Uzbekistan._526336663.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://countrysideindia.com/wp-content/uploads/2019/10/Itchan-Kala-Khiva-Uzbekistan._526336663.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-            <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img
-                classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://sogda-tour.com/wp-content/uploads/2020/02/tashkent3.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-              </div>
-            
-            </div>
-      
-         <div classNameName="group-hover:bg-opacity-60 overflow-hidden  transition duration-500 relative bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700  flex justify-center items-center">
-              <img classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 object-cover w-full h-96 transition duration-500"
-                src="https://countrysideindia.com/wp-content/uploads/2019/10/Itchan-Kala-Khiva-Uzbekistan._526336663.jpg"
-                alt="image-2"
-              />
-              <div classNameName="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2">
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl leading-5 text-gray-600 dark:text-white">
-                    Sectional Sofa
-                  </p>
-                </div>
-                <div>
-                  <p classNameName="group-hover:opacity-60 ease-in-out hover:transform hover:-translate-y-1 hover:scale-150 transition duration-500 text-xl font-semibold leading-5 text-gray-800 dark:text-white"></p>
-                </div>
-             
-            
-            </div>
-         </div>
-
-
-
-          </div>
-        </div>
-      </div> */
-}

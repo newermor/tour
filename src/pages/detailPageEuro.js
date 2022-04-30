@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const cardList = [
   {
@@ -10,6 +10,7 @@ const cardList = [
     money: "",
     day: "",
     series: "",
+    about: "",
   },
   {
     id: 1,
@@ -122,16 +123,18 @@ const cardList = [
     day: "7-15 kun",
     series:
       "Bizning jahon miqiyosidagi tarixchi gidlarimiz sizga hamrohlik qladi",
-    about: "Germaniyaning eng mashhur shaharlariga tashrif buyurish ko'pchilik uchun ustuvor vazifadir. Ammo ajoyib qishloqlarda dam olish, shuningdek, ajoyib tadbirlarda qatnashish ham mumkin!",
+    about:
+      "Germaniyaning eng mashhur shaharlariga tashrif buyurish ko'pchilik uchun ustuvor vazifadir. Ammo ajoyib qishloqlarda dam olish, shuningdek, ajoyib tadbirlarda qatnashish ham mumkin!",
   },
 ];
 
-function Daetail() {
+function DetailEuroPage() {
   const { id } = useParams();
   return (
-    <div className=" py-10 bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
+    <div className=" py-10 md:py-20 bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
       <div className="h-screen flex justify-center  items-center bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
         <card className="rounded w-72 shadow-xl flex flex-col text-gray-700">
+          <Link to={"#"}></Link>
           <p className="font-semibold bg-white  rounded-t px-4 py-2">
             {" "}
             {cardList[id].title}
@@ -302,9 +305,20 @@ function Daetail() {
               {cardList[id].about}
             </div>
             <div className="col-span-12 mt-5 mb-5 text-gray-100">
-              <button className="rounded hover:bg-teal-400 bg-teal-500 w-full py-3">
-                Biz bilan boglaning
-              </button>
+              <a
+                href="tel:+998977777777"
+                className=" w-full flex flex-row items-center py-3 px-6 text-center rounded-xl transition bg-purple-600 hover:bg-purple-700 active:bg-purple-800 focus:bg-indigo-600"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  className="w-6"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>
+                <span className="font-semibold">+998977777777</span>
+              </a>
             </div>
           </div>
         </card>
@@ -313,4 +327,4 @@ function Daetail() {
   );
 }
 
-export default Daetail;
+export default DetailEuroPage;
