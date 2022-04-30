@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/about";
-import Daetail from "./pages/detailPage";
+import Daetail from "./pages/detailPageEuro";
 import Euro from "./pages/euro";
 import Home from "./pages/home";
 import National from "./pages/national";
