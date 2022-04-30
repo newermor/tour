@@ -129,7 +129,7 @@ const cardList = [
 function Daetail() {
   const { id } = useParams();
   return (
-    <div className=" py-20 bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
+    <div className=" py-10 bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
       <div className="h-screen flex justify-center  items-center bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
         <card className="rounded w-72 shadow-xl flex flex-col text-gray-700">
           <p className="font-semibold bg-white  rounded-t px-4 py-2">
