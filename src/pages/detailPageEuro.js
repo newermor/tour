@@ -307,7 +307,7 @@ function DetailEuroPage() {
             <div className="col-span-12 mt-5 mb-5 text-gray-100">
               <a
                 href="tel:+998977777777"
-                className=" w-full flex flex-row items-center justify-center px-auto text-gray-800 py-3 px-6 text-center rounded-xl transition bg-gradient-to-r from-gray-400 via-blue-300 to-gray-400 "
+                className=" w-full flex flex-row items-center justify-center px-auto text-gray-800 py-3 px-6 text-center rounded-xl transition bg-gradient-to-r  bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -143,7 +143,7 @@ function DetailNatsionalPage() {
           <div className="relative z-10 -mx-4 group md:w-6/12 md:mx-0 lg:w-5/12">
             <div
               aria-hidden="true"
-              className="absolute top-0 w-full h-full rounded-2xl bg-white shadow-xl transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"
+              className="absolute top-0 w-full h-full rounded-2xl bg-white shadow-xl md:transition md:duration-500 md:group-hover:scale-105 lg:group-hover:scale-110"
             ></div>
             <div className="relative p-6 space-y-6  lg:p-8">
               <h3 className="text-3xl text-gray-700 font-semibold text-center">
@@ -243,7 +243,7 @@ function DetailNatsionalPage() {
                 <span>Biz bilan boglaning</span>
                 <a
                 href="tel:+998977777777"
-                className=" w-full flex flex-row items-center justify-center px-auto text-gray-800 py-3 px-6 text-center rounded-xl transition bg-gradient-to-r from-gray-400 via-blue-300 to-gray-400 "
+                className=" w-full flex flex-row items-center justify-center px-auto text-gray-800 py-3 px-6 text-center rounded-xl transition bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 "
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
