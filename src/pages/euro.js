@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Layout from "../components/layout";
 
-  const cardList = [
+const cardList = [
   {
     id: 1,
     title: "America",
@@ -65,14 +65,13 @@ import Layout from "../components/layout";
 ];
 
 function Euro() {
- 
   return (
     <Layout>
       <div className="h-full bg-white mt-10  grid grid-cols-1 md:grid-cols-2 gap-10 justify-center sm:py-12">
         {cardList.map((e) => {
           return (
             <div key={e.id} className="py-3 sm:max-w-xl sm:mx-auto  m-4">
-              <div className="bg-white shadow-lg border-gray-100 max-h-80	 border sm:rounded-3xl p-8 flex space-x-8">
+              <div className="bg-white shadow-lg border-gray-100 max-h-82	 border sm:rounded-3xl p-8 flex space-x-8">
                 <div className="h-48 overflow-visible w-1/2">
                   <img
                     className="rounded-3xl shadow-lg object-contain object-center transition duration-500 ease-in-out hover:transform hover:scale-150 md:hover:-translate-y-1 md:hover:scale-110 "
@@ -94,7 +93,7 @@ function Euro() {
                       {e.number}
                     </div>
                   </div>
-                  <div>
+                  <div className="">
                     <div className="text-sm text-gray-400 line-clamp-1">
                       {e.Series}
                     </div>

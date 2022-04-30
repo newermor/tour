@@ -2,9 +2,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      lineClamp:{
-        7: "7"
-      }
+      spacing: {
+        82: "27rem",
+      },
+      lineClamp: {
+        7: "7",
+      },
     },
   },
 
