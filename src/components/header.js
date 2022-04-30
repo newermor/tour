@@ -18,7 +18,7 @@ function Header() {
       <div className="w-full container mx-auto  flex flex-wrap items-center justify-between mt-0 py-2 ">
         <div className="pl-4 flex items-center">
           <CustomLink
-            className="toggleColour text-gray-600 hover:text-gray-800  font-semibold text-2xl lg:text-4xl"
+            className=" hover:underline toggleColour text-gray-600 hover:text-gray-800  font-semibold text-2xl lg:text-4xl"
             to="/"
           >
             Another Travel
@@ -49,7 +49,7 @@ function Header() {
           <ul className="list-reset lg:flex justify-end flex-1 items-center">
             <li className="mr-3">
               <CustomLink
-                className="inline-block text-gray-600 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                className=" hover:underline inline-block text-gray-600 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                 to="/national"
               >
                 National
@@ -57,7 +57,7 @@ function Header() {
             </li>
             <li className="mr-3">
               <CustomLink
-                className="inline-block text-gray-600 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                className=" hover:underline inline-block text-gray-600 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                 to="/euro"
               >
                 Euro
@@ -65,7 +65,7 @@ function Header() {
             </li>
             <li className="mr-3">
               <CustomLink
-                className="inline-block py-2 px-4 text-gray-600 font-bold no-underline"
+                className=" hover:underline inline-block py-2 px-4 text-gray-600 font-bold no-underline"
                 to="/about"
               >
                 About
@@ -97,7 +97,7 @@ export const MobilMenu = () => {
       <ul className="list-reset lg:flex justify-end flex-1 items-center">
         <li className="mr-3">
           <CustomLink
-            className="inline-block text-gray-800 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+            className="inline-block text-gray-800  hover:underline no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
             to="/national"
           >
             National
@@ -105,7 +105,7 @@ export const MobilMenu = () => {
         </li>
         <li className="mr-3">
           <CustomLink
-            className="inline-block text-gray-800 no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+            className="inline-block text-gray-800  hover:underline no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
             to="/euro"
           >
             Euro
@@ -113,7 +113,7 @@ export const MobilMenu = () => {
         </li>
         <li className="mr-3">
           <CustomLink
-            className="inline-block py-2 px-4 text-gray-800 font-bold no-underline"
+            className="inline-block py-2 px-4 text-gray-800  hover:underline font-bold no-underline"
             to="/about"
           >
             About

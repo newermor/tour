@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import Layout from "../components/layout";
 
-const cardList = [
+  const cardList = [
   {
     id: 1,
     title: "America",
@@ -64,6 +65,7 @@ const cardList = [
 ];
 
 function Euro() {
+ 
   return (
     <Layout>
       <div className="h-full bg-white mt-10  grid grid-cols-1 md:grid-cols-2 gap-10 justify-center sm:py-12">
@@ -80,15 +82,15 @@ function Euro() {
                 </div>
                 <div className="flex flex-col w-1/2 space-y-4">
                   <div className="flex justify-between items-start">
-                    <h2 className="md:text-3xl text-2xl font-bold line-clamp-1">
+                    <h2 className="md:text-3xl text-2xl font-bold line-clamp-1 text-gray-900">
                       {e.title}
                     </h2>
-                    <div className="bg-yellow-400 hidden md:block font-bold rounded-xl p-2">
+                    <div className="bg-yellow-400 hidden md:block font-bold rounded-xl p-2 text-gray-900">
                       {e.number}
                     </div>
                   </div>
                   <div>
-                    <div className="bg-yellow-400 inline-block  md:hidden font-bold rounded-xl p-2">
+                    <div className="bg-yellow-400 inline-block  md:hidden font-bold rounded-xl p-2 text-gray-900">
                       {e.number}
                     </div>
                   </div>
@@ -103,9 +105,33 @@ function Euro() {
                   <p className=" text-gray-400 max-h-40 overflow-y-hidden line-clamp-1">
                     {e.city}
                   </p>
-                  <div className="flex text-2xl font-bold line-clamp-1">
+                  <div className="flex text-2xl font-bold line-clamp-1 text-gray-900">
                     {e.money}
                   </div>
+                  <Link
+                    to={`/euro/${e.id}`}
+                    className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-gray-900 hover:text-gray-600 hover:underline"
+                  >
+                    <p className="pr-2 text-sm font-medium leading-none">
+                      Read More
+                    </p>
+                    <svg
+                      className="fill-stroke"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.75 12.5L10.25 8L5.75 3.5"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -117,25 +143,3 @@ function Euro() {
 }
 
 export default Euro;
-
-// <div className="py-3 sm:max-w-xl sm:mx-auto">
-//     <div className="bg-white shadow-lg border-gray-100 max-h-80	 border sm:rounded-3xl p-8 flex space-x-8">
-//       <div className="h-48 overflow-visible w-1/2">
-//           <img className="rounded-3xl shadow-lg" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1LRLLWGvs5sZdTzuMqLEahb88Pc.jpg" alt=""/>
-//       </div>
-//       <div className="flex flex-col w-1/2 space-y-4">
-//         <div className="flex justify-between items-start">
-//           <h2 className="text-3xl font-bold">Sweet Tooth: El niño ciervo</h2>
-//           <div className="bg-yellow-400 font-bold rounded-xl p-2">7.2</div>
-//         </div>
-//         <div>
-//           <div className="text-sm text-gray-400">Series</div>
-//           <div className="text-lg text-gray-800">2019</div>
-//         </div>
-//           <p className=" text-gray-400 max-h-40 overflow-y-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-//         <div className="flex text-2xl font-bold text-a">$83.90</div>
-//       </div>
-
-//     </div>
-
-//   </div>

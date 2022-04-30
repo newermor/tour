@@ -67,23 +67,25 @@ function Footer() {
               </Link>
             </div>
           </div>
+
+          
           <div className="grid grid-cols-1  gap-8 lg:col-span-2 sm:grid-cols-2">
             <div>
               <p className="font-medium">Company</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <Link className="hover:opacity-75" to={"#"}>
+                <Link className=" hover:underline hover:opacity-75" to={"#"}>
                   {" "}
                   About{" "}
                 </Link>
-                <Link className="hover:opacity-75" to={"#"}>
+                <Link className=" hover:underline hover:opacity-75" to={"#"}>
                   {" "}
                   Meet the Team{" "}
                 </Link>
-                <Link className="hover:opacity-75" to={"#"}>
+                <Link className=" hover:underline hover:opacity-75" to={"#"}>
                   {" "}
                   History{" "}
                 </Link>
-                <Link className="hover:opacity-75" to={"#"}>
+                <Link className=" hover:underline hover:opacity-75" to={"#"}>
                   {" "}
                   Careers{" "}
                 </Link>
@@ -92,19 +94,19 @@ function Footer() {
             <div>
               <p className="font-medium">Legal</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <Link className="hover:opacity-75" to={"#"}>
+                <Link className=" hover:underline hover:opacity-75" to={"#"}>
                   {" "}
                   Privacy Policy{" "}
                 </Link>
-                <Link className="hover:opacity-75" to={"#"}>
+                <Link className=" hover:underline hover:opacity-75" to={"#"}>
                   {" "}
                   Terms &amp; Conditions{" "}
                 </Link>
-                <Link className="hover:opacity-75" to={"#"}>
+                <Link className=" hover:underline hover:opacity-75" to={"#"}>
                   {" "}
                   Returns Policy{" "}
                 </Link>
-                <Link className="hover:opacity-75" to={"#"}>
+                <Link className=" hover:underline hover:opacity-75" to={"#"}>
                   {" "}
                   Accessibility{" "}
                 </Link>

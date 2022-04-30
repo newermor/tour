@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Layout from "../components/layout";
 
 function National() {
@@ -20,8 +21,8 @@ function National() {
                       <p className="text-base leading-4 text-white mt-2">
                         Me'moriy yodgorlik
                       </p>
-                      <a
-                        href="javascript:void(0)"
+                      <Link
+                        to={'/detail'}
                         className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -43,7 +44,7 @@ function National() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <img
@@ -64,8 +65,8 @@ function National() {
                       <p className="text-base leading-4 text-white mt-2">
                         Me'moriy qal'a
                       </p>
-                      <a
-                        href="javascript:void(0)"
+                      <Link
+                        to={'/detail'}
                         className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -87,7 +88,7 @@ function National() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <img
@@ -109,8 +110,8 @@ function National() {
                     <p className="text-base leading-4 text-white mt-2">
                       Tarixiy naqqoshlik
                     </p>
-                    <a
-                      href="javascript:void(0)"
+                    <Link
+                      to={'/detail'}
                       className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                     >
                       <p className="pr-2 text-sm font-medium leading-none">
@@ -132,7 +133,7 @@ function National() {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <img
@@ -160,8 +161,8 @@ function National() {
                     <p className="text-base leading-4 text-white mt-2">
                       Me'moriy masjid
                     </p>
-                    <a
-                      href="javascript:void(0)"
+                    <Link
+                      to={'/detail'}
                       className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                     >
                       <p className="pr-2 text-sm font-medium leading-none">
@@ -183,7 +184,7 @@ function National() {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <img
@@ -210,8 +211,8 @@ function National() {
                       <p className="text-base leading-4 text-white mt-2">
                         Registon madrasasi
                       </p>
-                      <a
-                        href="javascript:void(0)"
+                      <Link
+                        to={'/detail'}
                         className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -233,7 +234,7 @@ function National() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <img
@@ -254,8 +255,8 @@ function National() {
                       <p className="text-base leading-4 text-white mt-2">
                         Minor masjid
                       </p>
-                      <a
-                        href="javascript:void(0)"
+                      <Link
+                        to={'/detail'}
                         className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                       >
                         <p className="pr-2 text-sm font-medium leading-none">
@@ -277,7 +278,7 @@ function National() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <img
