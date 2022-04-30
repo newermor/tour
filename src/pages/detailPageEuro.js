@@ -131,7 +131,7 @@ const cardList = [
 function DetailEuroPage() {
   const { id } = useParams();
   return (
-    <div className=" py-10 md:py-20 bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
+    <div className=" py-10 md:py-32 bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
       <div className="h-screen flex justify-center  items-center bg-gradient-to-r from-gray-300 via-blue-200 to-gray-300 ">
         <card className="rounded w-72 shadow-xl flex flex-col text-gray-700">
           <Link to={"#"}></Link>
@@ -140,7 +140,7 @@ function DetailEuroPage() {
             {cardList[id].title}
           </p>
 
-          <div className="flex flex-row items-start pt-8 bg-white bg-opacity-10 pl-12 pr-10 gap-3">
+          <div className="flex flex-row items-start pt-8  bg-white bg-opacity-10 pl-12 pr-10 gap-3">
             <div className="flex flex-row gap-2">
               <span className="text-base text-gray-700"> $ </span>
               <p className="text-2xl text-gray-700 font-semibold">
